@@ -1,0 +1,54 @@
+/* ===== 1. Selector por etiqueta ===== */
+
+/* Todos los párrafos <p> */
+p {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado principal <h1> */
+h1 {
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+/* ===== 2. Selector por clase ===== */
+
+/* Clase .contenedor */
+.contenedor {
+    background-color: #cceeff; /* celeste claro */
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #3399cc;
+}
+
+
+/* ===== 3. Selector por ID ===== */
+
+/* ID #principal */
+#principal {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombreado ligero */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* ===== 4. Otros estilos ===== */
+
+/* Enlace <a> con hover */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+/* Imagen con ancho fijo y borde redondeado */
+img {
+    width: 300px;
+    border-radius: 10px;
+}
